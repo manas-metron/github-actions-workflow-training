@@ -20,7 +20,7 @@ jobs:
 
     #step-3
       - name: Install Dep
-        uses: npm install
+        run: npm install
     
     #step-4
       - name: Run lint
