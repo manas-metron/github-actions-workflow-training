@@ -24,7 +24,7 @@ jobs:
     
     #step-4
       - name: Run lint
-        uses: npm run lint
+        run: npm run lint
   
   package:
     runs-on: ubuntu-latest
@@ -42,7 +42,7 @@ jobs:
     #step-3 : Upload the package to
       - name: Upload the package
         uses: action/upload-artifact@v4
-        # with:
-        #   name: react-app-package
-        #   path: react-app-package.zip
+        with:
+          name: react-app-package
+          path: react-app-package.zip
   
