@@ -25,7 +25,7 @@ jobs:
     #step-4
       - name: Run lint
         run: npm run lint
-        contiue-on-error: true
+        continue-on-error: true
   
   package:
     runs-on: ubuntu-latest
