@@ -37,7 +37,7 @@ jobs:
 
     #step-2 : create a package
       - name: create a package
-        uses: zip -r react-app-package.zip .
+        run: zip -r react-app-package.zip .
     
     #step-3 : Upload the package to
       - name: Upload the package
