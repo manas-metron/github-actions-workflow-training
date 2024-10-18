@@ -12,11 +12,11 @@ jobs:
     steps:
     #step-1
       - name: checkout code
-        uses: action/checkout-code@v2
+        uses: actions/checkout@v2
     
     #step-2
       - name: setup node envi
-        uses: action/setup-node@v4
+        uses: actions/setup-node@v4
 
     #step-3
       - name: Install Dep
@@ -33,7 +33,7 @@ jobs:
     steps:
     #step-1 : checkout the code
       - name: checkout code
-        uses: action/checkout-code@v2
+        uses: actions/checkout@v2
 
     #step-2 : create a package
       - name: create a package
